@@ -33,7 +33,7 @@ def predict_species(sl,sw,pl,pw):
 
 if __name__ == "__main__":
     st.title('Iris Species prediction with Decision Tree model By Krish')
-    st.image('IRIS.png')
+    st.image('iris.png')
 
     sepal_length = get_sepal_length()
     sepal_width = get_sepal_width()
